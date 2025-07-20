@@ -1,0 +1,4 @@
+# ninja log v5
+1	7488	1733731515904569986	/home/whao/pose_eatimate/Feed-forward_iGuassion-weight-matching/submodules/simple-knn/build/temp.linux-x86_64-cpython-39/simple_knn.o	764246ed5396d1ac
+0	12635	1733731521061458353	/home/whao/pose_eatimate/Feed-forward_iGuassion-weight-matching/submodules/simple-knn/build/temp.linux-x86_64-cpython-39/ext.o	7066b16dfb2574d0
+1	30728	1733731539149063016	/home/whao/pose_eatimate/Feed-forward_iGuassion-weight-matching/submodules/simple-knn/build/temp.linux-x86_64-cpython-39/spatial.o	2493de68e6d936ed
