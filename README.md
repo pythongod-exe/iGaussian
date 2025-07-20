@@ -24,8 +24,6 @@ For more details, please refer to our paper:
 
 ---
 
-# Feed-forward iGaussian Weight Matching 7-Pose
-
 ## Overview
 
 This project implements a camera pose estimation pipeline based on Gaussian rendering and deep learning. It provides end-to-end scripts for both training and evaluation.
