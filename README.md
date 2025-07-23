@@ -24,7 +24,7 @@ For more details, please refer to our paper:
 
 ---
 
-# Feed-forward iGaussian Weight Matching 7-Pose
+# Feed-forward iGaussian 
 
 ## Overview
 
