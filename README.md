@@ -74,6 +74,14 @@ Alternatively, you can build your own Colmap-type dataset following the guidelin
 
 After obtaining the <source path>, train the 3DGS model according to the tutorial of 3D Gaussian Splatting. It should have the following directory structure:
 
+```bash
+├── <model path> 
+│   ├── point_cloud   
+│   ├── cameras.json
+│   ├── cfg_args
+│   ├── input.ply
+```
+
 ## Other Requirements
 
 - Linux OS is recommended, with NVIDIA GPU support.
