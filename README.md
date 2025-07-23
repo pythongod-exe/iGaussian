@@ -66,6 +66,18 @@ python setup.py install
 
 Make sure your system has a compatible CUDA toolkit and PyTorch version installed.
 
+## Prepare data and train the 3DGS model. We evaluated our method using the Blender, LLFF, and 360° Scene datasets provided by NeRF and Mip-NeRF 360. You can download them from their respective project pages.
+
+Alternatively, you can build your own Colmap-type dataset following the guidelines of 3D Gaussian Splatting.
+
+After obtaining the <source path>, train the 3DGS model according to the tutorial of 3D Gaussian Splatting. It should have the following directory structure:
+
+├── <model path> 
+│   ├── point_cloud   
+│   ├── cameras.json
+│   ├── cfg_args
+│   ├── input.ply
+
 ## Other Requirements
 
 - Linux OS is recommended, with NVIDIA GPU support.
