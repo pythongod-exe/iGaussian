@@ -66,7 +66,9 @@ python setup.py install
 
 Make sure your system has a compatible CUDA toolkit and PyTorch version installed.
 
-## Prepare data and train the 3DGS model. We evaluated our method using the Blender, LLFF, and 360° Scene datasets provided by NeRF and Mip-NeRF 360. You can download them from their respective project pages.
+## Prepare data and train the 3DGS model.
+
+We evaluated our method using the Blender, LLFF, and 360° Scene datasets provided by NeRF and Mip-NeRF 360. You can download them from their respective project pages.
 
 Alternatively, you can build your own Colmap-type dataset following the guidelines of 3D Gaussian Splatting.
 
