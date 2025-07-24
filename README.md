@@ -1,8 +1,8 @@
-# [IROS 2025]iGaussian: Real-Time Camera Pose Estimation via Feed-Forward 3D Gaussian Splatting Inversion
+# [IROS 2025]iGaussian
 
 ### [Paper](https://arxiv.org/abs/) 
 <br/>
-
+> iGaussian: Real-Time Camera Pose Estimation via Feed-Forward 3D Gaussian Splatting Inversion
 > Hao Wang*, [Linqing Zhao*](https://lqzhao.github.io/), [Xiuwei Xu](https://xuxw98.github.io/), [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/), [Haibin Yan](https://scholar.google.com/citations?user=-AQLKlsAAAAJ&hl=zh-CN&oi=ao)  
 
 
@@ -25,8 +25,6 @@ iGaussian is an innovative real-time camera pose estimation framework that lever
 - 🎮 Visual odometry, 3D reconstruction, and novel view synthesis
 
 For more details, please refer to our paper:
-
-> Wang, Hao; Zhao, Linqing; Xu, Xiuwei; Lu, Jiwen; Yan, Haibin. "iGaussian: Real-Time Camera Pose Estimation via Feed-Forward 3D Gaussian Splatting Inversion", arXiv preprint, 2024.
 
 ---
 
