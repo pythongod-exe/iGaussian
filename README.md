@@ -26,6 +26,9 @@ iGaussian is an innovative real-time camera pose estimation framework that lever
 - 🥽 Augmented/Virtual Reality (AR/VR)
 - 🎮 Visual odometry, 3D reconstruction, and novel view synthesis
 
+<p align='center'>
+<img src="./image.png" width="720px">
+</p>
 
 # Feed-forward iGaussian 
 
