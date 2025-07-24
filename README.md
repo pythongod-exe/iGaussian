@@ -1,4 +1,10 @@
-# iGaussian: Real-Time Camera Pose Estimation via Feed-Forward 3D Gaussian Splatting Inversion
+# [IROS 2025]iGaussian: Real-Time Camera Pose Estimation via Feed-Forward 3D Gaussian Splatting Inversion
+
+### [Paper](https://arxiv.org/abs/) 
+<br/>
+
+> Hao Wang*, [Linqing Zhao*](https://lqzhao.github.io/), [Xiuwei Xu](https://xuxw98.github.io/), [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/), [Haibin Yan](https://scholar.google.com/citations?user=-AQLKlsAAAAJ&hl=zh-CN&oi=ao)  
+
 
 ## Project Introduction
 
