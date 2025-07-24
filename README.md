@@ -1,4 +1,4 @@
-# [IROS 2025]iGaussian
+# [IROS 2025] iGaussian
 
 ### [Paper](https://arxiv.org/abs/) 
 <br/>
