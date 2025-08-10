@@ -1,4 +1,12 @@
-# iGaussian: Real-Time Camera Pose Estimation via Feed-Forward 3D Gaussian Splatting Inversion
+# [IROS 2025] iGaussian
+
+### [Paper](https://arxiv.org/abs/) 
+<br/>
+
+> iGaussian: Real-Time Camera Pose Estimation via Feed-Forward 3D Gaussian Splatting Inversion
+> 
+> Hao Wang*, [Linqing Zhao*](https://lqzhao.github.io/), [Xiuwei Xu](https://xuxw98.github.io/), [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/), [Haibin Yan](https://scholar.google.com/citations?user=-AQLKlsAAAAJ&hl=zh-CN&oi=ao)  
+
 
 ## Project Introduction
 
@@ -18,13 +26,11 @@ iGaussian is an innovative real-time camera pose estimation framework that lever
 - 🥽 Augmented/Virtual Reality (AR/VR)
 - 🎮 Visual odometry, 3D reconstruction, and novel view synthesis
 
-For more details, please refer to our paper:
+<p align='center'>
+<img src="./image.png" width="720px">
+</p>
 
-> Wang, Hao; Zhao, Linqing; Xu, Xiuwei; Lu, Jiwen; Yan, Haibin. "iGaussian: Real-Time Camera Pose Estimation via Feed-Forward 3D Gaussian Splatting Inversion", arXiv preprint, 2024.
-
----
-
-# Feed-forward iGaussian Weight Matching 7-Pose
+# Feed-forward iGaussian 
 
 ## Overview
 
@@ -65,6 +71,22 @@ python setup.py install
 ```
 
 Make sure your system has a compatible CUDA toolkit and PyTorch version installed.
+
+## Prepare data and train the 3DGS model.
+
+We evaluated our method using the Blender, LLFF, and 360° Scene datasets provided by NeRF and Mip-NeRF 360. You can download them from their respective project pages.
+
+Alternatively, you can build your own Colmap-type dataset following the guidelines of 3D Gaussian Splatting.
+
+After obtaining the <source path>, train the 3DGS model according to the tutorial of 3D Gaussian Splatting. It should have the following directory structure:
+
+```bash
+├── <model path> 
+│   ├── point_cloud   
+│   ├── cameras.json
+│   ├── cfg_args
+│   ├── input.ply
+```
 
 ## Other Requirements
 
